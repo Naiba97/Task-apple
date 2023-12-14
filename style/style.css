@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+#container .leftside__img {
+  height: 100vh;
+}
+#container .rightside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  background-color: #fafafa;
+}
+#container .rightside__price {
+  color: green;
+  font-weight: 600;
+}
+#container .rightside__title__description {
+  width: 80%;
+  text-align: center;
+}
+#container .rightside__content__sale {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  cursor: pointer;
+}
+#container .rightside__price::before {
+  content: "16.48$ ";
+  color: rgba(78, 76, 76, 0.45);
+}
+#container .ellipses {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+#footer .table {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#footer .table__list {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+#footer .table__list__ul__title {
+  margin-bottom: 15px;
+}
+#footer .table__list__ul__description {
+  opacity: 0.7;
+}
+#footer .table__list__num {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
